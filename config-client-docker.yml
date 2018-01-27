@@ -1,1 +1,12 @@
+ribbon:
+  eureka:
+    enabled: true
 
+spring:
+  data:
+    mongodb:
+      database: blace
+      host: mongodb
+      port: 27017
+      repositories:
+        enabled: true
